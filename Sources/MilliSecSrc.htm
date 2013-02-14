@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html lang="en"> <head>
+<meta name="author" content="Wayne Pollock">
+<meta name="description" content="Simple Java EE JSP demo">
+<meta name="keywords" content="Java, JSP, Java EE">
+<link rel="contents" href="../index.html">
+<link rel="previous" href="../index.html">
+
+<title> MilliSec.jsp (source) </title>
+
+</head>
+<body>
+<div>
+<h1 style="text-align:center;"> MilliSec.jsp </h1>
+
+<p style="text-align: right">
+<a href="MilliSec.jsp">Download MilliSec.jsp source file</a></p>
+
+<pre>
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"&gt;
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt; Simple JSP Example &lt;/TITLE&gt;
+&lt;META NAME="author" CONTENT="Wayne Pollock"&gt;
+&lt;LINK REL="PREVIOUS" HREF="index.html"&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+&lt;H1 ALIGN="CENTER"&gt; Simple JSP Example &lt;/H1&gt;
+&lt;BR /&gt; &lt;BR /&gt; &lt;BR /&gt;
+&lt;H2&gt;
+The current time is:&nbsp;
+&lt;FONT SIZE="+2" COLOR="red"&gt;
+
+<span style="font-size:115%; color: blue;">&lt;%
+     java.util.Date now = new java.util.Date();
+     out.print( now.toString() );
+%&gt;</span>
+
+&lt;/FONT&gt;&lt;/H2&gt;
+&lt;P&gt;
+&lt;A HREF="Sources/MilliSecSrc.htm"&gt;View JSP page source&lt;/A&gt;
+&lt;/P&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+</pre>
+
+<p><br /><br />
+<hr size="2">
+<table width="100%" border="0" summary="Layout Table">
+<tr valign="TOP"><td>
+Send comments and mail to the
+<a href="Mailto:pollock@acm.org?subject=Java+EE+Question:+Millisec.jsp">
+WebMaster</a>.
+</td><td align="RIGHT">
+<script type="text/JavaScript">
+<!--
+    var LastModDate = document.lastModified;
+    var msg = "<i> Last updated by Wayne Pollock on " +
+              LastModDate + ". <\/i>";
+    document.writeln( msg );
+//  -->
+</script>
+</td></tr></table>
+</div></body></html>

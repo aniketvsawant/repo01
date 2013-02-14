@@ -1,0 +1,10 @@
+JarIndex-Version: 1.0
+
+myServletWAR.war
+index.html
+MilliSec.htm
+MilliSec.jsp
+Sources
+WEB-INF
+WEB-INF/classes
+
